@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ETHEREAL HORIZON</title>
+    <style>
+        /* Add your custom CSS styles here */
+        /* This is just a basic example, you can style it as you like */
+        body {
+            background: radial-gradient(circle, rgb(255, 0, 179) 0%, rgb(0, 255, 213) 60%, rgb(157, 0, 255) 100%);
+            margin: 0;
+            padding: 0;
+            font-family: "Arial", sans-serif;
+            color: #000000;
+            border-radius: 0; /* Change border radius to 0 */
+            animation: gradientAnimation 3s ease-in-out infinite alternate-reverse; /* Apply gradient animation */
+            background-size: 150% 150%; /* Add background size for smoother animation */
+        }
+        .social-icons {
+            display: flex;
+            justify-content: space-around;
+            align-items: center; /* Center vertically */
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+        .social-icons a img, .game-icons img, .ask-devs-button img, .email-icon img {
+            width: 60px; /* Adjust the size of icons as needed */
+            height: 60px;
+            margin: 5px; /* Adjust the spacing between icons */
+        }
+        .about-section {
+            margin: 20px 0;
+            font-family: "Roboto", sans-serif; /* Choose a futuristic font */
+            text-align: center;
+            color: #fff;
+        }
+        .company-logo {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .company-logo img {
+            width: 150px; /* Adjust the size of the logo */
+            height: auto;
+        }
+        .additional-logos {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .additional-logos img {
+            width: 100px; /* Adjust the size of additional logos */
+            height: auto;
+            border-radius: 10px; /* Rounded rectangle shape */
+        }
+        .game-icons {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        .game-info {
+            text-align: center;
+            margin: 20px 10px; /* Adjust margin for spacing */
+            position: relative;
+            width: 300px; /* Set a fixed width for each game info */
+        }
+        .game-info h3 {
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+        .game-info img {
+            width: 120px; /* Adjust the size of game icons */
+            height: auto;
+            border-radius: 10px; /* Rounded rectangle shape */
+            margin-bottom: 10px; /* Add margin for spacing */
+        }
+        .game-info a {
+            display: block;
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 10px auto 0; /* Adjust margin for spacing */
+            width: fit-content;
+        }
+        .game-info p {
+            font-weight: bold; /* Make the text bold */
+        }
+        .testimonial-section {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .testimonial {
+            margin-bottom: 20px;
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 10px; /* Decrease padding to make boxes smaller */
+            border-radius: 10px;
+            color: black;
+            font-family: "Kimberly", sans-serif;
+            width: 80%; /* Adjust width as needed */
+            margin-left: auto; /* Center the boxes horizontally */
+            margin-right: auto;
+        }
+        .testimonial img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .testimonial p {
+            color: black;
+            font-family: "Kimberly", sans-serif;
+        }
+        .partners-section {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .partners-images {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .partners-images img {
+            width: 150px;
+            height: auto;
+            margin: 10px;
+            border-radius: 10px; /* Rounded rectangle shape */
+        }
+        .bottom-text {
+            text-align: center;
+            margin: 20px 0;
+            font-family: "lemon-chicken", cursive; /* Choose a warm font */
+            font-size: 24px; /* Make the font size bigger */
+        }
+        .bottom-text .retro-text {
+            font-weight: bold;
+            color: yellow; /* Change text color to yellow */
+        }
+        .bottom-text .dark-font {
+            color: black; /* Change text color to black */
+            font-family: "Kimberly", sans-serif; /* Choose Kimberly font */
+        }
+        .bottom-text p {
+            display: inline; /* Display text horizontally */
+        }
+        .big-banners {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+        }
+        .big-banner img {
+            width: 400px; /* Adjust the size of banners */
+            height: auto;
+            border-radius: 10px; /* Rounded rectangle shape */
+        }
+
+        /* Gradient animation */
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 0%; /* Start position */
+            }
+            100% {
+                background-position: 0% 100%; /* End position */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Social media icons and "Ask the Devs" button -->
+    <div class="social-icons">
+        <a href="https://www.facebook.com/profile.php?id=61557990157760"><img src="facebook.png" alt="Facebook"></a>
+        <a href="https://twitter.com/Etherealhorizo"><img src="twitter.png" alt="Twitter"></a>
+        <a href="https://t.me/EtherealHorizon"><img src="telegram.png" alt="Telegram"></a>
+        <a href="https://wa.me/+256783455629"><img src="whatsapp.png" alt="WhatsApp"></a>
+        <a href="https://www.snapchat.com/add/etherealjusto?share_id=9JX1Sq8B02o&locale=en-UG"><img src="snapchat.png" alt="Snapchat"></a>
+        <a href="https://youtube.com/@ETHEREALHORIZON99?si=Iln_o4bx3g-QIqfu"><img src="youtube.png" alt="YouTube"></a>
+        <a href="https://www.instagram.com/omodingjusto?igsh=MWZ0ZG42NzdlbXBuaQ=="><img src="instagram.png" alt="Instagram"></a>
+        <a href="https://discord.com/users/etherealhorizon99"><img src="discord.png" alt="Discord"></a>
+        <a href="https://www.tiktok.com/@etherealhorizon2?_t=8lK4CRPbDNt&_r=1"><img src="tiktok.png" alt="TikTok"></a>
+        <a href="mailto:etherealhorizon99@gmail.com?subject=Reply%20to%20Your%20Email"><img src="email.png" alt="Email"></a>
+        <!-- Ask the Devs button -->
+        <div class="ask-devs-button" style="text-align: center;">
+            <a href="https://www.instagram.com/omodingjusto?igsh=MWZ0ZG42NzdlbXBuaQ=="><img src="DEV.png" alt="Ask the Devs" style="width: 150px; height: 150px;"></a>
+        </div>
+    </div>
+
+    <!-- Game icons -->
+    <div class="game-icons">
+        <div class="game-info">
+            <h3>FOOD FIGHT</h3>
+            <img src="gameicon.png" alt="Game 1">
+            <a href="link_to_game1_on_play_store"><img src="playstore.png" alt="Get it on Play Store"></a>
+            <p>
+                <img src="DOWNLOAD1.png" alt="Downloads" width="=20px"> Downloads:  27082<br>
+                <img src="CASH.png" alt="Payouts"width="=20px">Total Payout: $16760
+            </p>
+            <p>Enter the celestial realm of Angelic Avenger, where you command a divine warrior on a quest to vanquish evil food entities! Encounter a delectable array of foes, from the cunning Shooting Avocado to the ferocious Biting Burger, each with a captivating backstory. Harness your celestial powers and embark on an epic journey filled with action, intrigue, and the ultimate battle between good and deliciously evil!</p>
+        </div>
+        <div class="game-info">
+            <h3>BUG SMASHER</h3>
+            <img src="bugicon.png" alt="Game 2">
+            <a href="link_to_game2_on_play_store"><img src="playstore2.png" alt="Get it on Play Store"></a>
+            <p>
+                <img src="DOWNLOAD1.png" alt="Downloads">Downloads:9190<br>
+                <img src="CASH.png" alt="Payouts"> Total Payout:$14900
+            </p>
+            <p>Embark on an exhilarating adventure in Bug Smasher, where your reflexes are put to the ultimate test! Defend your delectable feast from pesky bugs by tapping them away before they seize your scrumptious treats. With stunning visuals and addictive gameplay, immerse yourself in the thrill of protecting your food and becoming the ultimate bug-busting champion.</p>
+        </div>
+        <!-- Add more game icons as needed -->
+    </div>
+
+    <!-- About Us section -->
+    <div class="about-section" style="color: black; font-weight: bold;">
+        <p>
+            <span style="font-family: 'Agency FB', sans-serif; font-size: 40px; font-weight: bold;">ETHEREAL HORIZON©</span>
+        </p>
+        
+        <p>
+            ETHEREAL HORIZON is a revolutionary gaming platform designed with you in mind. Our mission is simple yet groundbreaking:
+            To empower gamers like never before by providing an opportunity to earn while you play. YES, WE ARE TALKING ABOUT REAL CASH.
+            Backed by ETHEREAL HORIZON's expert team in partnership with giants such as PayPal, Airtel, and MTN, we are set to redefine the gaming landscape.
+            Imagine immersing yourself in our games while you earn. Get ready to level up with ETHEREAL HORIZON.
+    
+            BE SURE TO FOLLOW ALL OUR SOCIAL MEDIA ACCOUNTS SO AS TO BE ABLE TO CONTACT ONLY OUR TRUSTED AGENTS.
+            AVOID SCAMMERS AND ONLY INTERACT WITH OUR AGENTS TO PROCESS PAYMENTS AND WITHDRAWALS.
+            THE SOCIAL MEDIA LINKS ARE ALL PROVIDED WITHIN THE GAMES.
+    
+            DOWNLOAD OUR GAMES, CONTACT OUR AGENTS FROM WITHIN THE GAME YOU DOWNLOADED, AND START EARNING REAL CASH NOW!!!!. FOR MORE INQUIRES, ASK THE DEVELOPERS BY CLICKING BUTTON.
+    
+            DON'T FORGET TO FOLLOW OUR SOCIAL MEDIA ACCOUNTS AND TELL YOUR FRIENDS ABOUT US.
+    
+            TELL EVERYONE YOU KNOW ABOUT US.
+        </p>
+    </div>
+    
+
+    <!-- Big banners section -->
+    <div class="big-banners">
+        <div class="big-banner">
+            <img src="banner.jpg" alt="Big Banner 1">
+        </div>
+        <div class="big-banner">
+            <img src="big_banner2.jpg" alt="Big Banner 2">
+        </div>
+    </div>
+
+    <!-- Testimonials section -->
+    <div class="testimonial-section">
+        <h2>Testimonials</h2>
+        <!-- Add testimonials here -->
+        <div class="testimonial">
+            <img src="testimonial1.png" alt="Testimonial 1">
+            <p>Emily: Playing games from Ethereal Horizon has been an amazing experience! Not only do I get to have fun, but I also earn real cash rewards. It's like getting paid to do what I love!</p>
+        </div>
+        <div class="testimonial">
+            <img src="testimonial2.png" alt="Testimonial 2">
+            <p>Sophia: I'm so grateful for Ethereal Horizon! As a high school student, it's challenging to find ways to earn money. With this platform, I can play games, beat high scores, and make some extra cash on the side. It's perfect for students like me</p>
+        </div>
+        <div class="testimonial">
+            <img src="testimonial3.png" alt="Testimonial 3">
+            <p>Justo: "Ethereal Horizon is not just a game; it's a full-time job for me now! I spend my days gaming, setting records, and getting paid. It's the best job ever!"</p>
+        </div>
+        <div class="testimonial">
+            <img src="testimonial4.png" alt="Testimonial 4">
+            <p>
+                Isabella: Playing games on Ethereal Horizon is not only entertaining but also rewarding! However, be prepared for tough competition. I enjoy the thrill of beating high scores and instantly receiving payouts. It's a great way to earn money while having fun</p>
+        </div>
+        <div class="testimonial">
+            <img src="testimonial5.png" alt="Testimonial 5">
+            <p>Michael: "Thanks to Ethereal Horizon, I've found a lucrative side hustle! I play games, compete with others, and earn money effortlessly. It's an excellent way to make some extra income in my free time."</p>
+        </div>
+        <div class="testimonial">
+            <img src="testimonial6.png" alt="Testimonial 6">
+            <p>Olivia: "Ethereal Horizon has changed the game for me! I used to play games just for fun, but now I play, set high scores, and get paid. It's like turning my hobby into a profitable venture. I highly recommend it to anyone looking to earn while gaming!</p>
+        </div>
+        <div class="testimonial">
+            <img src="testimonial7.png" alt="Testimonial 7">
+            <p>Sofia: "Jugar en Ethereal Horizon es increíble! Una de las cosas que más me encanta es que no hay anuncios en el juego Bug Smasher. ¡Es mi favorito! Espero ver más juegos como este en el futuro.
+                Im basically saying we need more games like this for those who dont speak spanish
+            </p>
+        </div>
+        <div class="testimonial">
+            <img src="testimonial7.png" alt="Testimonial 7">
+            <p>Tiffany: The Ethereal Horizon website is so pretty! I absolutely love it. The Bug Smasher game is simple yet addictive. Can't get enough of it cause i hate bugs now i can squash em for cash
+            </p>
+        </div>
+
+
+
+    </div>
+
+    <!-- Partners section -->
+    <div class="partners-section">
+        <h2>TRUSTED AND POWERED BY</h2>
+        <div class="partners-images">
+          
+            <img src="infinity.jpg" alt="Partner 2">
+            <img src="blender2.png" alt="Partner 3">
+            <img src="androidstu1.png" alt="Partner 5">
+            <img src="1st.png" alt="Partner 7">
+            <img src="github.png" alt="Partner 8">
+            <img src="store.png" alt="Partner 9">
+            <img src="visualstudio.png" alt="Partner 10">
+            <img src="icons8-fl-studio-256.png" alt="Partner 10">
+            <img src="icons8-retro-tv-96.png" alt="Partner 10">
+            <img src="google.png" alt="Partner 10">
+            <img src="cake.png" alt="Partner 10">
+            <!-- Add more partner images as needed -->
+        </div>
+    </div>
+
+    <!-- Bottom text section -->
+    <div class="bottom-text">
+        <p><span style="font-family: 'Agency FB', sans-serif,'bold';">ETHEREAL HORIZON©</span> <span style="font-weight: bold;"></span></p>
+        <p><span style="font-family: 'Kimberly BL', sans-serif; font-weight: bold;">Google</span></p>
+        <p><span style="font-family: 'Play store', sans-serif; font-weight: bold;">Play store</span></p>
+        <p><span style="font-family: 'Kimberly BL', sans-serif; font-weight: bold;">ART STATION©</span></p>
+        <p><span style="font-family: 'Indie Flower', cursive;">Blender</span></p>
+        <p><span style="font-family: 'Monoton', cursive;">Android studio</span></p>
+        <p><span style="font-family: 'Fredoka One', cursive;">Fruity loops mobile</span></p>
+        <p><span style="font-family: 'Luckiest Guy', cursive;">Github</span></p>
+        <p><span style="font-family: 'Coco', sans-serif; font-weight: bold;">INFINITY™</span></p>
+        <p><span style="font-family: 'Coco', sans-serif;">VisualStudio</span></p>
+        <p><span style="font-family: 'Bauhaus 93', sans-serif;">REALLY RETRO™</span></p>
+        <p>
+            <span style="font-family: 'Montez', sans-serif; font-weight: bold;">PRAYER 101</span>
+        </p>       
+       
+        <p><span style="font-family: 'LemonChicken', monospace; font-weight: bold;">WARM EVENING™</span></p>
+        <p>
+            <span style="font-family: 'Play store', sans-serif; font-weight: bold; font-size: 14px; color: #333;">
+                All rights reserved for the companies, brands, and trademarks mentioned on this website. 
+                The use of any company names, logos, or trademarks is solely for identification purposes 
+                and does not imply endorsement, sponsorship, or affiliation with this website. 
+                Any unauthorized use, reproduction, or distribution of the content on this website 
+                may violate copyright, trademark, and other applicable laws and could result in legal action. 
+                We reserve the right to take appropriate legal action to protect the rights of the companies 
+                and brands featured on this website.
+            </span>
+        </p>
+    </div>
+</body>
+</html>
